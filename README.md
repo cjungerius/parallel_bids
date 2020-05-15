@@ -1,7 +1,7 @@
 # parallel_bids
 
 A simple (for now) template script for the execution of commands for all valid subjects in a BIDS dataset using [GNU Parallel](https://www.gnu.org/software/parallel/).
-Documents the commands used and details about their execution, which ensures your analyses is reproducible
+Saves the commands used and details about their execution, which ensures your analyses are documented and reproducible.
 
 ## Requirements:
 - GNU parallel
