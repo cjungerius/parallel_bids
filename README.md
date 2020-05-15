@@ -17,7 +17,7 @@ Documents the commands used and details about their execution, which ensures you
 ```bash
 mkdir $project_path/logs/listall
 for subject in $(cat $subject_list) ; do
-echo `ls -a ${data_path}/$subject` > $cmds_path/${subject}.txt
+echo 'ls -a ${data_path}/$subject' > $cmds_path/${subject}.txt
 done
 ```
 
